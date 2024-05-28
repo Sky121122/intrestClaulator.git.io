@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    height: 100vh;
+    background-color: teal;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    border-radius: 20px;
+    color: seashell;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+}
+h1{
+    color: seashell;
+}
+input{
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+#payment{
+    margin-top: 0;
+   
+}
+.buttons{
+    margin-bottom: 15px;
+    display: flex;
+    gap: 40px;
+}
+button{
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    box-shadow: 1px 2px 3px black;
+    border-radius: 5px;
+}
